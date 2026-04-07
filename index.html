@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+Assignment 5 for: Louis Simeon
+991644769
+Created: July 30, Aug 5&6, 2025 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 for Louis Simeon</title>
+    <link rel="stylesheet" href="_css/styles.css">
+</head>
+<header>
+    <h1>Assignment 5 for: Louis Simeon</h1>
+    <h2>Made for: Sukhbir Tatla</h2>
+    <h3>Getting to know you Survey</h3>
+</header>
+<body>
+    <form action="thank-you.html" method="get">
+        <h2>Fill out the information below:</h2>
+        <table border="4">
+            <tr>
+               <td> <label for="fname">First Name:</label>
+                </td>
+                <td><input type="text" id="fname" name="fname" required autofocus> <br></td>
+            </tr>
+            <tr>
+                    <td>
+                    <label for="lname">Last Name:</label>
+                    
+                    </td>
+                    <td><input type="text" id="lname" name="lname" required> <br></td>
+            </tr>
+            <tr>
+                <td>Select your Geneder:</td>
+                <td>
+                    Male
+                    <input type="radio" id="male" name="gender" value="male"> <br>
+                    Female
+                    <input type="radio" id="Female" name="female" value="female"><br>
+                    Prefer not to say
+                    <input type="radio" id="other" name="gender" value="other"> <br>
+                   <!-- If other, specify here:
+                    <input type="text">-->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   Please enter your email: 
+                </td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>What campus are you located?</td>
+                <td>
+                    <select name="location">
+                        <option value="">Select Campus</option>
+                        <option value="Brampton">Brampton</option>
+                        <option value="Mississauga">Missisauga</option>
+                        <option value="Oakville">Oakville</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>How did you hear about us?</td>
+                <td><textarea rows="8" cols="50" placeholder="Insert your answer here"></textarea></td>
+            </tr>
+            <tr>
+                <td>Where do you want to go?</td>
+                <td>
+                    USA <input type="checkbox" name="country" value="USA"> <br>
+                    Canada <input type="checkbox" name="country" value="Canada"> <br>
+                    Japan <input type="checkbox" name="country" value="Japan"> <br>
+                    Not listed? Type here: <input type="text">
+                </td>
+
+            </tr>
+            <tr>
+                <td>What is your most favorite food?</td>
+                <td>
+                <fieldset>
+                    <legend>Food options</legend>
+                    <label for=""><input type="radio" id="pizza" name="food" value="pizza">Pizza</label>
+                   <label for=""><input type="radio" id="burger" name="food" value="burger">Burger</label>
+                   <label for=""><input type="radio" id="fries" name="food" value="fries">Fries</label>
+                   <label for=""><input type="radio" id="samosa" name="food" value="samosa">Samosa</label>
+                   <label for=""><input type="radio" id="shawarma" name="food" value="shawarma">Shawarma</label>
+
+                </fieldset>
+                <label for="">Not listed? Type here : <input type="text"></label>
+                </td>
+            </tr>
+            <tr>
+                   <td> <input type="submit" value="Submit">
+                    <input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+        
+    </form>
+    
+</body>
+
+<footer>
+    <p>Reference of this assignment came from <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">W3Schools.</a> </p>
+    <p>Copyright &copy 2025. Louis Simeon Productions. All Rights Reserved. No part or portion of this program may be reproduced, <br>copied or transmitted in any form or by any means, electronic or mechanical, without the written permission of the copyright holder. </p>
+</footer>
+</html>
