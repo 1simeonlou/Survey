@@ -1,0 +1,79 @@
+/*
+Assignment 5 for: Louis Simeon
+991644769
+Created: July 30, Aug 5&6, 2025 
+*/
+
+header, footer{
+    text-align: center;
+    background-color: aquamarine;
+    text-decoration: wavy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+h2{
+    text-align: center;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: lightblue;
+}
+
+table{
+    padding: 50px;
+    margin: 0 auto;
+    
+}
+    
+
+/*
+Assignment 5 for: Louis Simeon
+991644769
+Created: July 30, Aug 5 & 6, 2025
+*/
+
+/*header,
+footer {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 1000;
+}
+
+/* Header at the top */
+/*
+header {
+    top: 0;
+    padding: 15px 0;
+}
+
+/* Footer at the bottom */
+/*
+footer {
+    bottom: 0;
+    padding: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: lightblue;
+
+    /* Prevent content from hiding behind fixed header & footer */
+    /*
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+table {
+    padding: 50px;
+    margin: 0 auto;
+}
+*/
